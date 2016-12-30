@@ -47,6 +47,7 @@ class App extends Component {
           type="color"
           onChange={(e) => this.setState({ color: e.target.value})}
         />
+        <ThemedItem />
       </div>
     );
   } 
